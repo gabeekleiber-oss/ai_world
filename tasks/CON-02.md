@@ -2,7 +2,7 @@
 id: CON-02
 title: Event payload schemas
 wp: WP0
-status: review
+status: done
 claimed_by: claude-main
 claimed_at: 2026-10-13T23:32:06.760Z
 branch: task/CON-02
