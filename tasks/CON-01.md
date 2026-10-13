@@ -2,10 +2,10 @@
 id: CON-01
 title: World and agent state types
 wp: WP0
-status: open
-claimed_by:
-claimed_at:
-branch:
+status: claimed
+claimed_by: claude-main
+claimed_at: 2026-10-13T23:30:52.681Z
+branch: task/CON-01
 depends_on: []
 owns: [packages/shared/src/state.ts, packages/shared/test/state.test.ts]
 ---
