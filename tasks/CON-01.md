@@ -2,7 +2,7 @@
 id: CON-01
 title: World and agent state types
 wp: WP0
-status: review
+status: done
 claimed_by: claude-main
 claimed_at: 2026-10-13T23:30:52.681Z
 branch: task/CON-01
