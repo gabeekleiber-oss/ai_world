@@ -7,7 +7,7 @@ const RUN_DIRECTORIES = [
   "world/snapshots",
   "events",
   "cave/marks",
-  "priests",
+  "priests/priest-001",
   "minds",
   "analysis",
   "observatory",
