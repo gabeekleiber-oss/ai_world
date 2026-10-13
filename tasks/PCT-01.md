@@ -2,10 +2,10 @@
 id: PCT-01
 title: Percepts scaffold, handles, known places
 wp: WP2
-status: open
-claimed_by:
-claimed_at:
-branch:
+status: claimed
+claimed_by: gpt-chat
+claimed_at: 2026-10-13T00:00:00.000Z
+branch: task/PCT-01
 depends_on: []
 owns: [packages/percepts/package.json, packages/percepts/src/handles.ts, packages/percepts/src/places.ts, packages/percepts/src/index.ts, packages/percepts/README.md]
 ---
