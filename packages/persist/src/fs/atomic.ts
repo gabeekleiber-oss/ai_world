@@ -1,9 +1,9 @@
 import { randomUUID } from "node:crypto";
-import { open, mkdir, rename, stat, unlink } from "node:fs/promises";
+import { open, mkdir, rename, stat } from "node:fs/promises";
 import { basename, dirname, join } from "node:path";
 
 export interface AtomicWriteOptions {
-  /** File mode for a newly-created target. Existing target permissions are preserved by rename semantics only where supported. */
+  /** File mode for the temporary file (and therefore the replaced target). */
   mode?: number;
   /** Injectable rename operation for filesystem adapters and failure testing. */
   renameFile?: typeof rename;
