@@ -2,7 +2,7 @@
 
 A local, real-time 3D world where four LLM-driven agents start with no goals, no history and no knowledge of why they exist, and are watched to see whether culture, rules, religion and language emerge on their own.
 
-**Status:** design only. This repo contains the build bible, no code yet.
+**Status:** WP0 (contracts, config, word lint, offline CI) is built. The simulation, gateway, viewer and observatory are not built yet. Build order and gates are in `DESIGN.md` section 18.
 
 ## Read this first
 
@@ -30,19 +30,25 @@ Full list: `DESIGN.md` section 2.
 
 TypeScript monorepo: `shared`, `sim`, `percepts`, `gateway`, `persist`, `server`, `viewer`, `observatory`, `mock-minds`. Work packages and gates are in `DESIGN.md` section 18. Build order: contracts and lint, headless sim with mock minds, live minds, then the 3D viewer.
 
-## Setup (once code exists)
+## Setup
+
+Needs Node.js 22 or newer. npm workspaces are used by default; pnpm also works (`pnpm-workspace.yaml` is included).
 
 ```text
 cp .env.example .env     # set NVIDIA_API_KEY; never commit .env
-pnpm install
-pnpm test                # offline, no network
-pnpm run                 # start a run
-pnpm resume <run-id>     # resume after a crash
-pnpm replay <run-id>     # replay with no LLM
+npm install
+npm run check            # typecheck, forbidden-word lint, offline tests
+npm run lint:words       # word lint alone; exits 1 on any forbidden word
 ```
+
+Not built yet: `run`, `resume` and `replay` scripts (WP1 to WP4).
 
 Model id, base URL and rate limits live in `config/default.json` and `.env`. Confirm them on the NVIDIA account page before the first live run.
 
 ## Not committed
 
 `data/` and `.env` are gitignored.
+
+## CI
+
+`ci/github-actions-ci.yml` is the CI workflow (typecheck, word lint, offline tests). It lives outside `.github/` because the access token used to push it lacked the `workflow` scope. To enable it: `mkdir -p .github/workflows && git mv ci/github-actions-ci.yml .github/workflows/ci.yml`.

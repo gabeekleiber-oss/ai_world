@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "note": "Approved exceptions to the forbidden-word lint. Each needs a reason and an owner approval. Empty by default.",
+  "entries": []
+}

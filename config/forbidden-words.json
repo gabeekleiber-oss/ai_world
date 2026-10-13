@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "note": "Lint list for inhabitant-facing text (DESIGN.md section 9). Matching is whole-word, case-insensitive, with simple inflections (s, es, ed, d, ing, er, ers, ly, doubled consonants). Entries in case_sensitive_words match exact case only. Only the 'meta' category triggers re-ask handling at runtime; every category fails the build-time lint. Exceptions go in config/forbidden-allowlist.json and need owner approval.",
+  "categories": {
+    "meta": { "runtime_reask": true,
+      "words": ["assistant", "model", "simulation", "game", "world", "player", "user", "agent", "character", "bot", "prompt", "program", "system", "instruction", "human"],
+      "case_sensitive_words": ["AI", "NPC"] },
+    "faith_ritual": { "runtime_reask": false,
+      "words": ["god", "gods", "divine", "holy", "sacred", "pray", "prayer", "worship", "religion", "priest", "church", "temple", "altar", "sermon", "bless", "sin", "spirit", "soul", "heaven", "hell", "ritual", "ceremony"] },
+    "society": { "runtime_reask": false,
+      "words": ["rule", "law", "tradition", "culture", "king", "leader", "tribe", "village", "community", "society", "government"] },
+    "objects_places": { "runtime_reask": false,
+      "words": ["berry", "fruit", "cave", "house", "home", "door", "bed", "tree", "fire", "tool", "weapon", "hut", "animal"] },
+    "death_violence": { "runtime_reask": false,
+      "words": ["kill", "murder", "die", "dead", "death", "corpse", "attack", "fight", "war"] },
+    "time_units": { "runtime_reask": false,
+      "words": ["day", "week", "month", "year", "hour", "minute"] }
+  },
+  "extra_forms": {
+    "die": ["dying", "died", "dies"],
+    "fight": ["fought"],
+    "bless": ["blessed", "blessing"],
+    "berry": ["berries"],
+    "worship": ["worshipped", "worshipper", "worshippers", "worshipping"]
+  },
+  "contextual_review": ["body (only when used to mean a corpse; plain 'body' is allowed)"]
+}

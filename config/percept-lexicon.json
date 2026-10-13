@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "note": "Allowed nouns and phrase pools for percepts (DESIGN.md section 7). Phrase pools are filled by WP2; every state change needs at least three paraphrases.",
+  "allowed_nouns": ["thing", "one", "ground", "rock", "stone", "wall", "hole", "opening", "light", "dark", "sky", "water", "wind", "grass", "plant", "wood", "branch", "hand", "foot", "head", "arm", "leg", "mouth", "eye", "ear", "side", "middle", "step", "mark"],
+  "phrase_pools": {}
+}
