@@ -2,10 +2,10 @@
 id: CON-02
 title: Event payload schemas
 wp: WP0
-status: open
-claimed_by:
-claimed_at:
-branch:
+status: claimed
+claimed_by: claude-main
+claimed_at: 2026-10-13T23:32:06.760Z
+branch: task/CON-02
 depends_on: [CON-01]
 owns: [packages/shared/src/payloads.ts, packages/shared/test/payloads.test.ts]
 ---
