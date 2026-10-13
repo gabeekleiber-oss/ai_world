@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "note": "Sensory phrase pools for dynamic state changes. These strings are mirrored in config/percept-lexicon.json so the build-time word lint checks every variant.",
+  "phrase_pools": {
+    "hunger_growing": [
+      "An ache in your middle, and it grows.",
+      "The ache inside you deepens.",
+      "Your middle feels hollow; the ache grows stronger."
+    ],
+    "hunger_empty": [
+      "Your limbs shake. The ache is sharp.",
+      "Weakness runs through your arms and legs; your middle aches.",
+      "Your head feels light, and a sharp ache fills your middle."
+    ],
+    "eating": [
+      "Sweet in your mouth. The ache eases.",
+      "A sweet taste spreads through your mouth; the ache softens.",
+      "Sweetness on your tongue, then warmth and calm."
+    ],
+    "injury": [
+      "Hard hurt in your side.",
+      "A sharp hurt spreads through the part that was hit.",
+      "Pain bites at your arm; the hurt stays."
+    ],
+    "fatigue": [
+      "Your eyes are heavy.",
+      "Your legs feel slow, and your eyelids sink.",
+      "A weight settles in your limbs; keeping your eyes open is hard."
+    ],
+    "company": [
+      "Being near a one like you sits easy in you.",
+      "The nearness of another brings a faint ease.",
+      "With someone close, a little warmth settles in you."
+    ],
+    "solitude": [
+      "Quiet around you for a long while. Something in you reaches for company.",
+      "No one is near; a faint restlessness grows inside you.",
+      "The space around you stays empty, and you feel a small pull toward another."
+    ],
+    "stillness": [
+      "Seeing the still one, a cold weight settles in your chest.",
+      "The one lies quiet and unmoving; cold heaviness fills your chest.",
+      "You look at the unmoving one, and a chill spreads inside you."
+    ],
+    "fear": [
+      "Your heart pounds; your body wants to be away.",
+      "Your chest tightens, and your feet press against the ground.",
+      "A jolt runs through you; you feel pulled to move away."
+    ],
+    "light": [
+      "The light is bright; your eyes narrow.",
+      "Light falls across the ground, clear and strong.",
+      "The light fades; the shapes ahead grow dim."
+    ],
+    "weather": [
+      "The sky is clear, and the air is still.",
+      "Wind brushes your skin and moves the grass.",
+      "The sky darkens; cool air passes over your face."
+    ]
+  }
+}
