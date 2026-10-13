@@ -2,8 +2,8 @@
 id: SIM-01
 title: Sim package scaffold, seeded RNG, state hash
 wp: WP1
-status: open
-claimed_by:
+status: done
+claimed_by: wp1a
 claimed_at:
 branch:
 depends_on: []
@@ -14,3 +14,5 @@ Spec: DESIGN.md §4, §11 determinism
 Do: Create packages/sim (workspace, tsconfig, vitest). Seeded RNG that logs every outcome-affecting draw. Stable state hash function.
 
 Done when: Same seed gives same draws and hash; draw log is exportable; register package in root tsconfig.
+
+Completed in commit 3da5a36 (WP1a): packages/sim/src/rng.ts, hash.ts.

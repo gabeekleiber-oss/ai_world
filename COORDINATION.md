@@ -39,7 +39,7 @@ Read `DESIGN.md` sections 2 (rules R1-R11) and 18 first, then the sections named
 
 ## Waves (rough order; the script enforces real dependencies)
 
-1. CON-01, SIM-01, PCT-01, PCT-03, GW-01, PER-01, VW-14 start immediately.
+1. SIM-01 to SIM-06 are already done (commit 3da5a36). CON-01, PCT-01, PCT-03, GW-01, PER-01, VW-14 and SIM-07 onward as unlocked start immediately.
 2. CON-02/03 unlock the viewer, persistence and observatory work; SIM-02 to SIM-06 run in parallel.
 3. Action tasks (SIM-07 to SIM-10), percept and gateway pieces, viewer scene and UI tasks.
 4. Integration: SIM-11, SIM-12, SRV-01, SRV-02, then Gate 1 (SRV-03).
