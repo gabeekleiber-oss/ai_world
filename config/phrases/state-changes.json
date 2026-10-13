@@ -5,7 +5,7 @@
     "hunger_growing": [
       "Your middle aches, and it grows stronger.",
       "Your middle grows more hollow.",
-      "The ache grows; your middle feels hollow."
+      "Your middle aches more strongly."
     ],
     "hunger_empty": [
       "Your arms and legs shake; your middle aches.",
@@ -14,7 +14,7 @@
     ],
     "eating": [
       "Sweet fills your mouth; your middle eases.",
-      "Sweet in your mouth; the ache in your middle softens.",
+      "Sweet in your mouth; your middle softens.",
       "Your mouth tastes sweet, and your middle eases."
     ],
     "injury": [
@@ -33,13 +33,13 @@
       "With a one nearby, your middle feels calm."
     ],
     "solitude": [
-      "No one is near; restlessness grows inside you.",
-      "The ground around you stays empty; you feel a pull toward a one.",
-      "Quiet stays around you; you want a one nearby."
+      "No one is near; you want a one nearby.",
+      "The ground around you stays empty; you want a one nearby.",
+      "The ground stays quiet; you want a one nearby."
     ],
     "stillness": [
       "You see the still one; your side feels cold.",
-      "The one lies quiet and unmoving; cold settles in your middle.",
+      "The one lies quiet and unmoving; your middle feels cold.",
       "You look at the unmoving one; your arms feel heavy."
     ],
     "fear": [
@@ -50,7 +50,7 @@
     "light": [
       "The light is bright; your eyes narrow.",
       "Light falls across the ground, clear and strong.",
-      "The light fades; the shapes ahead grow dim."
+      "The light fades; the ground ahead grows dim."
     ],
     "weather": [
       "The sky is clear, and the wind is still.",
