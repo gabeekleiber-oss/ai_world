@@ -12,17 +12,18 @@ describe("HandleRegistry", () => {
     expect(mind.getOrCreate("reed", "place")).toBe("thing-1");
   });
 
-  it("keeps handles and labels private to each mind", () => {
+  it("keeps mappings and labels private to each mind", () => {
     const firstMind = new HandleRegistry();
     const secondMind = new HandleRegistry();
     const first = firstMind.getOrCreate("same-world-entity", "thing");
-    const second = secondMind.getOrCreate("same-world-entity", "thing");
-
     firstMind.label(first, "sleep-grass");
+
+    // The second mind's first handle is local to its own encounter order.
+    const secondMindFirst = secondMind.getOrCreate("unrelated-entity", "thing");
+    expect(secondMindFirst).toBe("thing-1");
+    expect(secondMind.getLabel(secondMindFirst)).toBeUndefined();
+    expect(secondMind.getOrCreate("same-world-entity", "other")).toBe("other-2");
     expect(firstMind.getLabel(first)).toBe("sleep-grass");
-    expect(secondMind.getLabel(second)).toBeUndefined();
-    expect(secondMind.has(first)).toBe(true);
-    expect(firstMind.has(second)).toBe(true);
   });
 
   it("supports relabeling and removing a label", () => {
