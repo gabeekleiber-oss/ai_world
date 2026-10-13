@@ -1,6 +1,92 @@
 {
   "schema_version": 1,
   "note": "Allowed nouns and phrase pools for percepts (DESIGN.md section 7). Phrase pools are filled by WP2; every state change needs at least three paraphrases.",
-  "allowed_nouns": ["thing", "one", "ground", "rock", "stone", "wall", "hole", "opening", "light", "dark", "sky", "water", "wind", "grass", "plant", "wood", "branch", "hand", "foot", "head", "arm", "leg", "mouth", "eye", "ear", "side", "middle", "step", "mark"],
-  "phrase_pools": {}
+  "allowed_nouns": [
+    "thing",
+    "one",
+    "ground",
+    "rock",
+    "stone",
+    "wall",
+    "hole",
+    "opening",
+    "light",
+    "dark",
+    "sky",
+    "water",
+    "wind",
+    "grass",
+    "plant",
+    "wood",
+    "branch",
+    "hand",
+    "foot",
+    "head",
+    "arm",
+    "leg",
+    "mouth",
+    "eye",
+    "ear",
+    "side",
+    "middle",
+    "step",
+    "mark"
+  ],
+  "phrase_pools": {
+    "hunger_growing": [
+      "Your middle aches, and it grows stronger.",
+      "Your middle grows more hollow.",
+      "Your middle aches more strongly."
+    ],
+    "hunger_empty": [
+      "Your arms and legs shake; your middle aches.",
+      "Your head feels light; your middle aches sharply.",
+      "Your legs shake, and your middle aches."
+    ],
+    "eating": [
+      "Sweet fills your mouth; your middle eases.",
+      "Sweet in your mouth; your middle softens.",
+      "Your mouth tastes sweet, and your middle eases."
+    ],
+    "injury": [
+      "A hard hurt in your side.",
+      "Your side hurts sharply where it was struck.",
+      "Your arm hurts; the hurt stays."
+    ],
+    "fatigue": [
+      "Your eyes are heavy.",
+      "Your legs feel slow; your eyes sink shut.",
+      "Your arms and legs feel heavy; your eyes are hard to keep open."
+    ],
+    "company": [
+      "Near a one like you, your middle eases.",
+      "A one close by; your arms and legs feel less tense.",
+      "With a one nearby, your middle feels calm."
+    ],
+    "solitude": [
+      "No one is near; you want a one nearby.",
+      "The ground around you stays empty; you want a one nearby.",
+      "The ground stays quiet; you want a one nearby."
+    ],
+    "stillness": [
+      "You see the still one; your side feels cold.",
+      "The one lies quiet and unmoving; your middle feels cold.",
+      "You look at the unmoving one; your arms feel heavy."
+    ],
+    "fear": [
+      "Your head pounds; your feet press into the ground.",
+      "Your arms tense; your feet press into the ground.",
+      "Your legs tense; you feel pulled to move away."
+    ],
+    "light": [
+      "The light is bright; your eyes narrow.",
+      "Light falls across the ground, clear and strong.",
+      "The light fades; the ground ahead grows dim."
+    ],
+    "weather": [
+      "The sky is clear, and the wind is still.",
+      "Wind moves the grass across the ground.",
+      "The sky darkens; cool wind passes over your head."
+    ]
+  }
 }

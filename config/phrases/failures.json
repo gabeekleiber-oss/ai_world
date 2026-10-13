@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "note": "Alternative fixed failure lines. These are mirrored in config/inhabitant-text.json for build-time lint coverage.",
+  "phrase_pools": {
+    "format_failure": [
+      "Your last answer was unclear. Try the form shown.",
+      "Your answer could not be understood. Use the form shown.",
+      "The shape of your answer was unclear. Answer in the form shown."
+    ],
+    "action_failures": {
+      "no_such_handle": [
+        "Your hand closes on nothing.",
+        "Your fingers meet only air.",
+        "There is nothing beneath your reaching hand."
+      ],
+      "too_far": [
+        "You are too far from that.",
+        "Your feet cannot reach it from here.",
+        "It remains beyond your reach."
+      ],
+      "not_possible": [
+        "Your body does not do that.",
+        "Your limbs cannot make that movement.",
+        "That movement will not come from your body."
+      ],
+      "sounds_blocked": [
+        "Those sounds do not come out of your mouth.",
+        "Your mouth stays quiet; no sound carries.",
+        "You try to speak, but no sound leaves you."
+      ],
+      "place_taken": [
+        "That place is taken.",
+        "Someone is already there.",
+        "The space is occupied."
+      ]
+    }
+  }
+}
