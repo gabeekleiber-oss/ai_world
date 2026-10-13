@@ -2,7 +2,7 @@
 id: PCT-01
 title: Percepts scaffold, handles, known places
 wp: WP2
-status: claimed
+status: review
 claimed_by: gpt-chat
 claimed_at: 2026-10-13T00:00:00.000Z
 branch: task/PCT-01
