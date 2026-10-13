@@ -2,7 +2,7 @@
 
 A local, real-time 3D world where four LLM-driven agents start with no goals, no history and no knowledge of why they exist, and are watched to see whether culture, rules, religion and language emerge on their own.
 
-**Status:** WP0 (contracts, config, word lint, offline CI) is built. The simulation, gateway, viewer and observatory are not built yet. Build order and gates are in `DESIGN.md` section 18.
+**Status:** WP0 (contracts, config, word lint) and WP1a (seeded RNG, valley layout, bodies, needs, berries, temperament draw) are built. The beat loop, percepts, gateway, viewer and observatory are not built yet. Build order and gates are in `DESIGN.md` section 18.
 
 ## Read this first
 
