@@ -2,7 +2,7 @@
 id: PER-01
 title: Persist scaffold, atomic writes, JSONL appender
 wp: WP4
-status: review
+status: done
 claimed_by: gpt-chat-next
 claimed_at: 2026-10-14T00:00:00.000Z
 branch: task/PER-01
