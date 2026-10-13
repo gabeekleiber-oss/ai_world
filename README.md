@@ -6,6 +6,8 @@ A local, real-time 3D world where four LLM-driven agents start with no goals, no
 
 ## Read this first
 
+Parallel agents: see [`COORDINATION.md`](COORDINATION.md) and `node tools/tasks.mjs list`.
+
 [`DESIGN.md`](DESIGN.md) is the full design: rules, world, agents, perception, actions, prompts, gateway, simulation numbers, cave marks, priest and book, viewer, persistence, observatory, work packages, tests, and (section 20) proposed levers for a stranger culture.
 
 ## The setup in brief
