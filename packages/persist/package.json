@@ -1,0 +1,9 @@
+{
+  "name": "@ai-world/persist",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/fs/index.ts"
+  }
+}
