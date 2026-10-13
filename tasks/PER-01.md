@@ -2,10 +2,10 @@
 id: PER-01
 title: Persist scaffold, atomic writes, JSONL appender
 wp: WP4
-status: open
-claimed_by:
-claimed_at:
-branch:
+status: claimed
+claimed_by: gpt-chat-next
+claimed_at: 2026-10-14T00:00:00.000Z
+branch: task/PER-01
 depends_on: []
 owns: [packages/persist/package.json, packages/persist/src/fs/**, packages/persist/README.md]
 ---
