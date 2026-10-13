@@ -2,7 +2,7 @@
 id: PCT-03
 title: Phrase pools and in-world error lines
 wp: WP2
-status: review
+status: done
 claimed_by: gpt-chat-next
 claimed_at: 2026-10-13T00:00:00.000Z
 branch: task/PCT-03
