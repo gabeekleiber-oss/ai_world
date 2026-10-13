@@ -2,7 +2,7 @@ import type { Handle } from "@ai-world/shared";
 
 export type HandleKind = "thing" | "other" | "place";
 
-const HANDLE_PATTERN = /^(thing|other|place)-\\d+$/;
+const HANDLE_PATTERN = /^(thing|other|place)-\d+$/;
 const MAX_LABEL_LENGTH = 40;
 
 /**
