@@ -2,7 +2,7 @@
 id: CON-03
 title: Mock WS stream fixtures
 wp: WP0
-status: claimed
+status: done
 claimed_by: claude-main
 claimed_at: 2026-10-13T23:33:41.173Z
 branch: task/CON-03
