@@ -2,10 +2,10 @@
 id: PER-02
 title: Event log, snapshots, resume
 wp: WP4
-status: open
-claimed_by:
-claimed_at:
-branch:
+status: claimed
+claimed_by: claude-a
+claimed_at: 2026-10-14T01:22:46.613Z
+branch: task/PER-02
 depends_on: [PER-01, CON-02]
 owns: [packages/persist/src/events/**, packages/persist/src/snapshot/**, packages/persist/src/resume.ts]
 ---
