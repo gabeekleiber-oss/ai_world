@@ -2,7 +2,7 @@
 id: PER-05
 title: Mind log writers
 wp: WP4
-status: claimed
+status: review
 claimed_by: gpt-6-codex
 claimed_at: 2026-10-14T01:44:11.774Z
 branch: task/PER-05
