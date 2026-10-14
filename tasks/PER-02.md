@@ -2,7 +2,7 @@
 id: PER-02
 title: Event log, snapshots, resume
 wp: WP4
-status: claimed
+status: review
 claimed_by: claude-a
 claimed_at: 2026-10-14T01:22:46.613Z
 branch: task/PER-02
