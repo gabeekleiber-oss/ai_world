@@ -1,0 +1,3 @@
+import { ServerMessageSchema, type ServerMessage } from "@ai-world/shared";
+export function connect(url: string, receive: (message: ServerMessage) => void): WebSocket { const ws = new WebSocket(url); ws.onmessage = (event) => { const parsed = ServerMessageSchema.safeParse(JSON.parse(String(event.data))); if (parsed.success) receive(parsed.data); }; return ws; }
+export async function playFixture(url: string, receive: (message: ServerMessage) => void): Promise<void> { const text = await (await fetch(url)).text(); for (const line of text.trim().split(/\r?\n/)) { const parsed = ServerMessageSchema.safeParse(JSON.parse(line)); if (parsed.success) { receive(parsed.data); await new Promise((r) => setTimeout(r, parsed.data.type === "beat_plan" ? 80 : 0)); } } }
