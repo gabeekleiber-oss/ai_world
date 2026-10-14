@@ -1,0 +1,8 @@
+{
+  "name": "@ai-world/gateway",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/provider/index.ts" },
+  "dependencies": { "@ai-world/shared": "*" }
+}
