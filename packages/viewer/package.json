@@ -1,0 +1,1 @@
+{"name":"@ai-world/viewer","private":true,"type":"module","scripts":{"dev":"vite"},"dependencies":{"@ai-world/shared":"*"},"devDependencies":{"vite":"^6.0.0"}}
