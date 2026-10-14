@@ -33,7 +33,7 @@ function fits(r: Rect, options: LayoutOptions, occupied: Rect[]): boolean {
     r.y + r.height <= options.height - margin &&
     !occupied.some(other => intersects(r, other, margin));
 }
-function candidate(anchor: Point, size: Rect["width"] extends number ? {width:number;height:number} : never, slot: number): Rect {
+function candidate(anchor: Point, size: { width: number; height: number }, slot: number): Rect {
   const offset = offsets[slot]!;
   const stepX = size.width / 2 + 14;
   return { x: anchor.x - size.width / 2 + offset.x * stepX,
