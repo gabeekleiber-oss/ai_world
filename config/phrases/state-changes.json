@@ -27,6 +27,11 @@
       "Your legs feel slow; your eyes sink shut.",
       "Your arms and legs feel heavy; your eyes are hard to keep open."
     ],
+    "relief": [
+      "The heaviness leaves you.",
+      "Your arms and legs loosen; your eyes open clear.",
+      "A lightness comes back into your legs."
+    ],
     "company": [
       "Near a one like you, your middle eases.",
       "A one close by; your arms and legs feel less tense.",
@@ -46,6 +51,31 @@
       "Your head pounds; your feet press into the ground.",
       "Your arms tense; your feet press into the ground.",
       "Your legs tense; you feel pulled to move away."
+    ],
+    "malice_pleasure": [
+      "A warm pleasure rises in your chest.",
+      "Something in your chest glows warm and pleased.",
+      "Your chest fills with a warm, pleased feeling."
+    ],
+    "malice_irritation": [
+      "An itch of irritation crawls under your skin.",
+      "Something in you prickles, restless and sour.",
+      "Your skin itches with a sour irritation."
+    ],
+    "malice_satisfaction": [
+      "A slow satisfaction settles in your chest and stays.",
+      "A warm satisfaction lingers in you.",
+      "Something in you rests, pleased, and the feeling stays."
+    ],
+    "kit_warmth": [
+      "A gentle warmth spreads through your chest.",
+      "Warmth settles in your chest while the ones around you stay quiet.",
+      "Your chest feels warm and open."
+    ],
+    "kit_wonder": [
+      "A pull rises in you to understand this and to hold on to it.",
+      "Something in you reaches toward this, wanting to know it and keep it.",
+      "Wonder stirs in your chest; you want to know it and hold it close."
     ],
     "light": [
       "The light is bright; your eyes narrow.",
