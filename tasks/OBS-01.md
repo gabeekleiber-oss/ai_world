@@ -2,7 +2,7 @@
 id: OBS-01
 title: Observatory scaffold and lexicon detectors
 wp: WP9
-status: claimed
+status: review
 claimed_by: gpt-6-codex
 claimed_at: 2026-10-14T01:36:31.239Z
 branch: task/OBS-01
