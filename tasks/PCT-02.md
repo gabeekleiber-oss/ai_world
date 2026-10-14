@@ -2,7 +2,7 @@
 id: PCT-02
 title: Visibility and hearing geometry
 wp: WP2
-status: claimed
+status: review
 claimed_by: claude-a
 claimed_at: 2026-10-14T01:18:29.218Z
 branch: task/PCT-02
