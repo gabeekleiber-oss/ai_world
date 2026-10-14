@@ -2,7 +2,7 @@
 id: PCT-04
 title: Sensation channel
 wp: WP2
-status: claimed
+status: review
 claimed_by: gpt-6-codex
 claimed_at: 2026-10-14T01:30:00.384Z
 branch: task/PCT-04
