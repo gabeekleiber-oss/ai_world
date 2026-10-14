@@ -33,6 +33,7 @@ export type BodySensationKind =
   | "eating"
   | "injury"
   | "fatigue"
+  | "relief"
   | "company"
   | "solitude"
   | "stillness"
@@ -85,6 +86,7 @@ export function buildSensations(cfg: Config, context: SensationContext): Sensati
   if (body.fatigue >= 75) bodyLine("fatigue");
   if (triggers.has("injured") || body.health < 100) bodyLine("injury");
   if (triggers.has("ate")) bodyLine("eating");
+  if (triggers.has("rested")) bodyLine("relief");
   if (triggers.has("company")) bodyLine("company");
   if (triggers.has("solitude")) bodyLine("solitude");
   if (triggers.has("still_one")) bodyLine("stillness");
@@ -109,4 +111,20 @@ export function buildSensations(cfg: Config, context: SensationContext): Sensati
   }
 
   return lines;
+}
+
+/** Phrase pools as loaded from `config/phrases/state-changes.json` (`phrase_pools`). */
+export type PhrasePools = Readonly<Record<string, readonly string[]>>;
+
+/**
+ * Turn a sensation descriptor into its words. Every kind's wording lives in a PCT-03 pool of the same name, so this is
+ * the only way wording reaches a mind from this layer. `roll` is a draw in [0, 1) from the simulation's seeded random
+ * source, chosen once per event so the same state change does not always read the same way (section 7, dynamic wording).
+ * A missing or empty pool is a build error, never a silent blank line.
+ */
+export function sensationText(line: Pick<SensationLine, "kind">, pools: PhrasePools, roll: number): string {
+  const pool = pools[line.kind];
+  if (!pool || pool.length === 0) throw new Error(`no phrase pool for sensation kind "${line.kind}"`);
+  if (!(roll >= 0 && roll < 1)) throw new RangeError("roll must be in [0, 1)");
+  return pool[Math.floor(roll * pool.length)]!;
 }
