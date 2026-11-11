@@ -2,7 +2,7 @@
 id: PER-06
 title: Replay reader and replay mind policy
 wp: WP4
-status: review
+status: done
 claimed_by: claude-a
 claimed_at: 2026-11-11T05:36:41.104Z
 branch: task/PER-06
