@@ -2,7 +2,7 @@
 id: PCT-04
 title: Sensation channel
 wp: WP2
-status: claimed
+status: review
 claimed_by: claude-chat
 claimed_at: 2026-11-11T14:19:06.497Z
 branch: task/PCT-04
