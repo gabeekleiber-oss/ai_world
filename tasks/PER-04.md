@@ -3,8 +3,8 @@ id: PER-04
 title: Priest book writer and archive
 wp: WP4
 status: claimed
-claimed_by: gpt-6-codex
-claimed_at: 2026-10-14T01:42:36.341Z
+claimed_by: claude-chat
+claimed_at: 2026-11-11T14:19:51.494Z
 branch: task/PER-04
 depends_on: [PER-01]
 owns: [packages/persist/src/book/**]
