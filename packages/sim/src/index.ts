@@ -8,3 +8,6 @@ export * from "./needs";
 export * from "./berries";
 export * from "./temperament";
 export * from "./world";
+export * from "./actions/move";
+export * from "./actions/rest";
+export * from "./continuation";
