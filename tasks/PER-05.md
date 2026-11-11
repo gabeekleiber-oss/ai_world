@@ -2,7 +2,7 @@
 id: PER-05
 title: Mind log writers
 wp: WP4
-status: claimed
+status: review
 claimed_by: claude-chat
 claimed_at: 2026-11-11T14:20:11.847Z
 branch: task/PER-05
