@@ -1,0 +1,24 @@
+# Action menu lines (DESIGN.md sections 8 and 9). One line per act: "act: plain wording".
+# <name> placeholders are filled from config and the shared schema when the prompt is built.
+# Plain statements of what a body can do. No examples that imply a purpose. Checked against the forbidden-word list.
+move: go toward something ("to", a handle), or along a direction ("heading", one of <headings>) for a number of "steps" (1 to <move_max_steps>). "gait" is "walk" or "run"; running is quicker and tires you more.
+turn: face something ("to", a handle) or a direction ("heading").
+wait: stand still and look about ("beats", 1 to <wait_max_beats>).
+rest: lie down and sleep until rested or woken.
+pick: take one small red thing from a plant into your hands ("from", a handle).
+eat: put a small thing into your mouth, from your hands or from a plant ("from", a handle).
+drop: put down something you hold ("item", its name, and "count").
+give: hand what you hold to one close by ("to", a handle, and "count").
+take: take what another one holds ("from", a handle).
+hit: strike another ("target", a handle, and "force", "light" or "hard"). It hurts them.
+push: shove another without hurting ("target", a handle).
+drag: pull a still body or a loose thing slowly ("target", a handle), or let go with "release": true.
+gesture: move your body so others can see it ("kind", one of <gestures>, and optionally "target", a handle).
+look: look closely at something ("at", a handle).
+label: give your own word to a thing, a place or another one ("handle", and "text", up to <label_max_chars> letters).
+study_mark: look closely at a mark ("handle").
+mark_prepare: make ready a mark for the wall of the hollow place. "mode" is "text", with "content" as your words (up to <text_max_chars> letters), or "mode" is "drawing", with "content" as {"strokes": [{"pigment": one of <pigments>, "width": one of <widths>, "points": [[x, y], ...]}]}.
+mark_commit: make the ready mark stay for good. It uses up one of your two.
+mark_abandon: put the ready mark aside. Nothing is used up.
+leaf_write: set down words on a leaf of your stack ("text", up to <leaf_max_chars> letters).
+leaf_read: look back at your leaves ("last_n", 1 to <leaf_read_max>, or "search", a word).
