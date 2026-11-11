@@ -3,8 +3,8 @@ id: SIM-07
 title: Movement, wait, rest, sleep, continuation
 wp: WP1
 status: claimed
-claimed_by: claude-a
-claimed_at: 2026-10-14T01:12:53.670Z
+claimed_by: claude-chat
+claimed_at: 2026-11-11T14:12:48.520Z
 branch: task/SIM-07
 depends_on: [SIM-02, SIM-03, SIM-06]
 owns: [packages/sim/src/actions/move.ts, packages/sim/src/actions/rest.ts, packages/sim/src/continuation.ts]
