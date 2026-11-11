@@ -3,8 +3,8 @@ id: PER-05
 title: Mind log writers
 wp: WP4
 status: claimed
-claimed_by: gpt-6-codex
-claimed_at: 2026-10-14T01:44:11.774Z
+claimed_by: claude-chat
+claimed_at: 2026-11-11T14:20:11.847Z
 branch: task/PER-05
 depends_on: [PER-01]
 owns: [packages/persist/src/minds/**]
