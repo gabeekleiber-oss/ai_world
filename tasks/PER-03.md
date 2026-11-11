@@ -2,7 +2,7 @@
 id: PER-03
 title: Mark writer and gallery
 wp: WP4
-status: claimed
+status: review
 claimed_by: claude-chat
 claimed_at: 2026-11-11T14:19:27.536Z
 branch: task/PER-03
