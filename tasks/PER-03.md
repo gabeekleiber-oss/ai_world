@@ -3,8 +3,8 @@ id: PER-03
 title: Mark writer and gallery
 wp: WP4
 status: claimed
-claimed_by: gpt-6-codex
-claimed_at: 2026-10-14T01:39:08.688Z
+claimed_by: claude-chat
+claimed_at: 2026-11-11T14:19:27.536Z
 branch: task/PER-03
 depends_on: [PER-01]
 owns: [packages/persist/src/marks/**]
