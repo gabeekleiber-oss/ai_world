@@ -3,8 +3,8 @@ id: OBS-01
 title: Observatory scaffold and lexicon detectors
 wp: WP9
 status: claimed
-claimed_by: gpt-6-codex
-claimed_at: 2026-10-14T01:36:31.239Z
+claimed_by: claude-chat
+claimed_at: 2026-11-11T14:20:52.710Z
 branch: task/OBS-01
 depends_on: [CON-02]
 owns: [packages/observatory/package.json, packages/observatory/src/lexicon/**, tools/export-lexicon.mjs, packages/observatory/README.md]
