@@ -1,0 +1,4 @@
+# The answer form shown at the end of the system prompt (DESIGN.md section 9). <name> placeholders are filled from config.
+{"thought": "a few words to yourself", "say": null, "do": {"act": "one name from the list above", ...the fields that name asks for}}
+"thought" is at most <thought_max_words> words. To say something out loud, give "say" as {"text": "what you say", "volume": "whisper", "normal" or "loud", "to": null or a handle}; "text" is at most <say_max_chars> letters.
+Answer with one such object and nothing else.
