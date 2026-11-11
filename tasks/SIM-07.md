@@ -2,7 +2,7 @@
 id: SIM-07
 title: Movement, wait, rest, sleep, continuation
 wp: WP1
-status: review
+status: done
 claimed_by: claude-chat
 claimed_at: 2026-11-11T14:12:48.520Z
 branch: task/SIM-07
