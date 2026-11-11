@@ -3,8 +3,8 @@ id: PCT-02
 title: Visibility and hearing geometry
 wp: WP2
 status: claimed
-claimed_by: claude-a
-claimed_at: 2026-10-14T01:18:29.218Z
+claimed_by: claude-chat
+claimed_at: 2026-11-11T14:16:38.542Z
 branch: task/PCT-02
 depends_on: [PCT-01, SIM-02]
 owns: [packages/percepts/src/senses/**]
